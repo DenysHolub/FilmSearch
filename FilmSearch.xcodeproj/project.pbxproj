@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5798991DB63CFB00C9C25D /* CurrentFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5798981DB63CFB00C9C25D /* CurrentFilm.swift */; };
+		9ADD4EA51DB56C8D0071A235 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD4EA31DB56C8D0071A235 /* DetailViewController.swift */; };
+		9ADD4EA61DB56C8D0071A235 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD4EA41DB56C8D0071A235 /* DetailTableViewCell.swift */; };
 		CF8C164A1DA65EC800A36049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8C16491DA65EC800A36049 /* AppDelegate.swift */; };
-		CF8C164C1DA65EC800A36049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8C164B1DA65EC800A36049 /* ViewController.swift */; };
 		CF8C164F1DA65EC800A36049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8C164D1DA65EC800A36049 /* Main.storyboard */; };
 		CF8C16511DA65EC800A36049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8C16501DA65EC800A36049 /* Assets.xcassets */; };
 		CF8C16541DA65EC800A36049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8C16521DA65EC800A36049 /* LaunchScreen.storyboard */; };
+		CF8C167E1DA6906300A36049 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8C167A1DA6906300A36049 /* User.swift */; };
+		CF8C167F1DA6906300A36049 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8C167B1DA6906300A36049 /* UserTableViewCell.swift */; };
+		CF8C16801DA6906300A36049 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8C167C1DA6906300A36049 /* UserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A5798981DB63CFB00C9C25D /* CurrentFilm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFilm.swift; sourceTree = "<group>"; };
+		9ADD4EA31DB56C8D0071A235 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9ADD4EA41DB56C8D0071A235 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		CF8C16461DA65EC800A36049 /* FilmSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8C16491DA65EC800A36049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF8C164B1DA65EC800A36049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF8C164E1DA65EC800A36049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8C16501DA65EC800A36049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8C16531DA65EC800A36049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8C16551DA65EC800A36049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8C167A1DA6906300A36049 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CF8C167B1DA6906300A36049 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		CF8C167C1DA6906300A36049 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		CF8C16481DA65EC800A36049 /* FilmSearch */ = {
 			isa = PBXGroup;
 			children = (
+				9ADD4EA31DB56C8D0071A235 /* DetailViewController.swift */,
+				CF8C167C1DA6906300A36049 /* UserTableViewController.swift */,
+				9ADD4EA41DB56C8D0071A235 /* DetailTableViewCell.swift */,
+				CF8C167B1DA6906300A36049 /* UserTableViewCell.swift */,
+				CF8C167A1DA6906300A36049 /* User.swift */,
+				9A5798981DB63CFB00C9C25D /* CurrentFilm.swift */,
 				CF8C16491DA65EC800A36049 /* AppDelegate.swift */,
-				CF8C164B1DA65EC800A36049 /* ViewController.swift */,
 				CF8C164D1DA65EC800A36049 /* Main.storyboard */,
 				CF8C16501DA65EC800A36049 /* Assets.xcassets */,
 				CF8C16521DA65EC800A36049 /* LaunchScreen.storyboard */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8C164C1DA65EC800A36049 /* ViewController.swift in Sources */,
+				9A5798991DB63CFB00C9C25D /* CurrentFilm.swift in Sources */,
+				9ADD4EA61DB56C8D0071A235 /* DetailTableViewCell.swift in Sources */,
+				CF8C16801DA6906300A36049 /* UserTableViewController.swift in Sources */,
+				CF8C167F1DA6906300A36049 /* UserTableViewCell.swift in Sources */,
+				9ADD4EA51DB56C8D0071A235 /* DetailViewController.swift in Sources */,
 				CF8C164A1DA65EC800A36049 /* AppDelegate.swift in Sources */,
+				CF8C167E1DA6906300A36049 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +281,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJH8MQXN6M;
 				INFOPLIST_FILE = FilmSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = holub.FilmSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -274,10 +296,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NJH8MQXN6M;
 				INFOPLIST_FILE = FilmSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = holub.FilmSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +324,7 @@
 				CF8C165A1DA65EC800A36049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
